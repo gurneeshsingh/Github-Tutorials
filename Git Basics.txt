@@ -1,0 +1,15 @@
+This file has basics of using Git, we use git and github to track changes of our files 
+
+1. always check status of git in any folder (repository) : git status
+2. change the repo into a git repo by initialising : git init
+
+
+
+
+
+
+
+
+
+Version 1.0
+
