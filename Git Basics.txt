@@ -2,14 +2,16 @@ This file has basics of using Git, we use git and github to track changes of our
 
 1. always check status of git in any folder (repository) : git status
 2. change the repo into a git repo by initialising : git init
+3. Stage all the files from working directory to staging : git add .
+4. Commit the files i.e saving the files : git commit -m "here we give text like version 1"
+that means files commited in version 1
+5. add your username and email , if we want the same name and email we can change that in global or we can 
+do it for a particular repo as well : git config --global user.name"Gurneesh Singh" , same line for email
+6. To view the changes made to the files : git log
+ 
 
 
 
 
-
-
-
-
-
-Version 1.0
+Version 2.0
 
