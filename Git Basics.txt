@@ -8,7 +8,13 @@ that means files commited in version 1
 5. add your username and email , if we want the same name and email we can change that in global or we can 
 do it for a particular repo as well : git config --global user.name"Gurneesh Singh" , same line for email
 6. To view the changes made to the files : git log
- 
+
+
+GITHUB TUTORIAL
+1. Firstly we add a ssh key to authorise the local machine to access the github account to push and pull files
+2. Next we add origin to tell github to locate the origin from where it will take requests :
+git remote add origin {followed by the link in the github profile reporitory tab}
+3. To push code from our machine to github : git push -u origin master
 
 
 
