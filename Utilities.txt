@@ -4,6 +4,9 @@ It has some utilities which are being used by git basics file
 
 If we want to see the changes in git bash , what we have made to our file then : git diff filename
 
+If we want to see the changes in the staged file meaning file that has been added via git add . 
+then we use : git diff --staged filename
+
 
 
 
