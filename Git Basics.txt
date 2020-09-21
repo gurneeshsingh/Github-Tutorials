@@ -1,23 +1,44 @@
 This file has basics of using Git, we use git and github to track changes of our files 
 
 1. always check status of git in any folder (repository) : git status
+
 2. change the repo into a git repo by initialising : git init
+
 3. Stage all the files from working directory to staging : git add .
+
 4. Commit the files i.e saving the files : git commit -m "here we give text like version 1"
 that means files commited in version 1
+
 5. add your username and email , if we want the same name and email we can change that in global or we can 
 do it for a particular repo as well : git config --global user.name"Gurneesh Singh" , same line for email
+
 6. To view the changes made to the files : git log
+
 7. Only commit files when sure of the changes done. 
+
 8. If changes made to different files but not staged , we want to reverse the changes : git checkout .
+
 9. If changes made to files and staged , we eant to reverse the changes then : git reset . + git checkout .
+
 10. If we want to clone any repo from github to our machine we use : git clone ssh key 
+
+11. Suppose we want to ignore some files and do not want to track them using git then we need to add those 
+files into gitignore folder. 
+
+12. To make gitignore foleder : touch .gitignore , open gitignore file using notepad .gitignore and add 
+file name which we wish t add in that folder
+
+13. If there are some files which were earlier being tracked , we put them in gitignore folder , but to remove
+the previous history of those files we will run : git rm --cached Filename
+
 
 
 GITHUB TUTORIAL
 1. Firstly we add a ssh key to authorise the local machine to access the github account to push and pull files
+
 2. Next we add origin to tell github to locate the origin from where it will take requests :
 git remote add origin {followed by the link in the github profile reporitory tab}
+
 3. To push code from our machine to github : git push -u origin master
 
 
