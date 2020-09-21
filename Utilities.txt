@@ -2,6 +2,8 @@ This is just a sample file
 
 It has some utilities which are being used by git basics file 
 
+If we want to see the changes in git bash , what we have made to our file then : git diff filename
+
 
 
 
